@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Page Update="PgIdle.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="PgLogin.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="PgLoginOrOrder.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+      <Page Update="PgTakeOutOrEatIn.xaml">
+        <Generator>MSBuild:Compile</Generator>
+        <XamlRuntime>Wpf</XamlRuntime>
+        <SubType>Designer</SubType>
+      </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MySql.Data" Version="8.3.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="res\img\arrow-down-172-128.png" />
+      <Resource Include="res\img\arrow-down-172-128.png" />
+      <None Remove="res\img\campusburger_promotion.png" />
+      <Resource Include="res\img\campusburger_promotion.png" />
+      <None Remove="res\img\mccampus_icon.png" />
+      <Resource Include="res\img\mccampus_icon.png" />
+      <None Remove="res\img\qr-code-25-512.png" />
+      <Resource Include="res\img\qr-code-25-512.png" />
+    </ItemGroup>
+
+</Project>

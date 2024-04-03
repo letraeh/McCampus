@@ -1,0 +1,109 @@
+<Page x:Class="McCampus.PgLogin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d"
+      Title="PgLogin" Height="1920" Width="1080">
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Width="1080" Height="1920">
+        <Grid Width="1080" Height="2760">
+            <!-- Main content area -->
+            <Grid.RowDefinitions>
+                <!-- Space for the header image -->
+                <RowDefinition Height="440" />
+                <!-- Space for Keyboard -->
+                <RowDefinition Height="1000"/>
+                <!-- Content area -->
+                <RowDefinition Height="480" />
+            </Grid.RowDefinitions>
+
+            <!-- Image -->
+            <Grid Grid.Row="1" Background="#fffad0">
+                 <Grid HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Row 1 -->
+                    <Button Content="1" Grid.Column="0" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="2" Grid.Column="1" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="3" Grid.Column="2" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="4" Grid.Column="3" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="5" Grid.Column="4" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="6" Grid.Column="5" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="7" Grid.Column="6" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="8" Grid.Column="7" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="9" Grid.Column="8" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="0" Grid.Column="9" Grid.Row="0" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+
+                    <!-- Row 2 -->
+                    <Button Content="Q" Grid.Column="0" Grid.Row="1" IsEnabled="False" Background="#e6e0a6" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="W" Grid.Column="1" Grid.Row="1" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="E" Grid.Column="2" Grid.Row="1" IsEnabled="False" Background="#e6e0a6" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="R" Grid.Column="3" Grid.Row="1" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="T" Grid.Column="4" Grid.Row="1" IsEnabled="False" Background="#e6e0a6" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="Z" Grid.Column="5" Grid.Row="1" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="U" Grid.Column="6" Grid.Row="1" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="I" Grid.Column="7" Grid.Row="1" IsEnabled="False" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="O" Grid.Column="8" Grid.Row="1" IsEnabled="False" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="P" Grid.Column="9" Grid.Row="1" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+
+                    <!-- Row 3 -->
+                    <Button Content="A" Grid.Column="0" Grid.Row="2" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="S" Grid.Column="1" Grid.Row="2" IsEnabled="False" Background="#e6e0a6" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="D" Grid.Column="2" Grid.Row="2" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="F" Grid.Column="3" Grid.Row="2" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="G" Grid.Column="4" Grid.Row="2" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="H" Grid.Column="5" Grid.Row="2" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="J" Grid.Column="6" Grid.Row="2" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="K" Grid.Column="7" Grid.Row="2" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="L" Grid.Column="8" Grid.Row="2" IsEnabled="False" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+
+                    <!-- Row 4 -->
+                    <Button Content="Y" Grid.Column="0" Grid.Row="3" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="X" Grid.Column="1" Grid.Row="3" IsEnabled="False" Background="#e6e0a6" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="C" Grid.Column="2" Grid.Row="3" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="V" Grid.Column="3" Grid.Row="3" IsEnabled="False" Background="#e6e0a6" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="B" Grid.Column="4" Grid.Row="3" IsEnabled="False" Background="#e6e0a6" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="N" Grid.Column="5" Grid.Row="3" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                    <Button Content="M" Grid.Column="6" Grid.Row="3" Background="#fffad0" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold" Width="70" Height="70"/>
+                </Grid>
+            </Grid>
+
+            <!-- Colored solid bar with company logo -->
+            <Grid Grid.Row="2" Background="#fffad0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="465"/>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="465"/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid Grid.Column="1">
+                    <Button x:Name="ButtonCancel" Background="#c43131" Width="350" Height="125" VerticalAlignment="Center" 
+                            HorizontalAlignment="Center" Click="ButtonCancel_OnClick" Content="Abbrechen" FontFamily="Montserrat" FontSize="25" FontWeight="SemiBold"/>
+                </Grid>
+                <Button x:Name="ButtonContinue" Click="ButtonContinue_OnClick" Height="125" Width="350" Grid.Column="3" 
+                        VerticalAlignment="Center" HorizontalAlignment="Center" Content="Weiter"  FontFamily="Montserrat" FontSize="25" 
+                        FontWeight="SemiBold" Background="#57844d">
+                </Button>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Page>
